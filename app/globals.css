@@ -43,6 +43,15 @@
       text-slate-400;
   }
 
+  .stars-canvas {
+    @apply 
+      w-full 
+      h-auto 
+      fixed 
+      inset-0 
+      z-0;
+  }
+
   .navbar-wrapper {
     @apply 
       fixed 
