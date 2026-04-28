@@ -1,4 +1,4 @@
-import { Socials } from "@/constants";
+import { Socials, NavLinks } from "@/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -19,10 +19,11 @@ const Navbar = () => {
         </a>
 
         <div className="navbar-links">
-          <a href="#about" className="navbar-link">About me</a>
-          <a href="#skills" className="navbar-link">Skills</a>
-          <a href="#projects" className="navbar-link">Projects</a>
-          <a href="#contact" className="navbar-link">Contact</a>
+          {NavLinks.map((nav) => (
+            <a href={nav.link} key={nav.name} className="navbar-link">
+              {nav.name}
+            </a>
+          ))}
         </div>
 
         <div className="navbar-socials">
