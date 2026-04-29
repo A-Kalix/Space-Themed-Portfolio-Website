@@ -46,7 +46,7 @@
   .stars-canvas {
     @apply 
       w-full 
-      h-auto 
+      h-screen 
       fixed 
       inset-0 
       z-0;
