@@ -362,6 +362,117 @@
       object-contain;
   }
 
+  .about-section {
+    @apply 
+      relative 
+      w-full 
+      py-24 
+      flex 
+      flex-col 
+      items-center 
+      justify-center 
+      z-10;
+  }
+
+  .section-header {
+    @apply 
+      flex 
+      flex-col 
+      items-center 
+      text-center 
+      mb-16;
+  }
+
+  .section-title {
+    @apply 
+      text-4xl 
+      font-bold 
+      text-transparent 
+      bg-clip-text 
+      bg-gradient-to-r 
+      from-purple-400 
+      to-cyan-400;
+  }
+
+  .section-subtitle {
+    @apply 
+      mt-4 
+      text-gray-400 
+      text-lg 
+      max-w-2xl;
+  }
+
+  .about-content {
+    @apply 
+      max-w-4xl 
+      mx-auto 
+      px-6;
+  }
+
+  .about-text {
+    @apply 
+      text-lg 
+      text-gray-300 
+      space-y-6 
+      leading-relaxed;
+  }
+
+  .skills-section {
+    @apply 
+      relative 
+      w-full 
+      py-24 
+      flex 
+      flex-col 
+      items-center 
+      justify-center 
+      z-10;
+  }
+
+  .skills-grid {
+    @apply 
+      grid 
+      grid-cols-2 
+      md:grid-cols-4 
+      lg:grid-cols-6 
+      gap-6 
+      max-w-6xl 
+      mx-auto 
+      px-6;
+  }
+
+  .skill-card {
+    @apply 
+      flex 
+      flex-col 
+      items-center 
+      justify-center 
+      gap-3 
+      p-4 
+      rounded-xl 
+      bg-slate-900/50 
+      border 
+      border-purple-500/20 
+      backdrop-blur-md 
+      hover:border-purple-500/50 
+      hover:scale-105 
+      transition-all 
+      duration-300 
+      shadow-lg;
+  }
+
+  .skill-icon {
+    @apply 
+      object-contain;
+  }
+
+  .skill-name {
+    @apply 
+      text-sm 
+      font-medium 
+      text-gray-300;
+  }
+
   .footer-wrapper {
     @apply 
       relative 
