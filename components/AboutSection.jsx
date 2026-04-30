@@ -2,14 +2,15 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { slideInFromTop, slideInFromLeft } from "@/utils/motion";
 
 const AboutSection = () => (
     <section id="about" className="about-section">
         <motion.div
             className="section-header"
-            initial={{ opacity: 0, y: -50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
+            initial="hidden"
+            animate="visible"
+            variants={slideInFromTop(0)}
         >
             <h2 className="section-title">About Me</h2>
         </motion.div>
@@ -17,9 +18,9 @@ const AboutSection = () => (
         <div className="about-content">
             <motion.div
                 className="about-text"
-                initial={{ opacity: 0, x: -50 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
+                initial="hidden"
+                animate="visible"
+                variants={slideInFromLeft(0.2)}
             >
                 <p>
                     I am a highly motivated Full Stack Developer based in Turkey, with a

@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { FaAws, FaNodeJs } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
+import { slideInFromLeft, scaleIn } from "@/utils/motion";
 
 const orbitSkills = [
     { name: "React", icon: "/react.png", radius: 120, angle: 0 },
@@ -35,9 +36,9 @@ const Hero = () => {
             <div className="hero-container">
                 <motion.div
                     className="hero-left"
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8, ease: "easeOut" }}
+                    initial="hidden"
+                    animate="visible"
+                    variants={slideInFromLeft(0)}
                 >
                     <div className="hero-badge">
                         <span>Full Stack Developer Portfolio</span>
@@ -61,9 +62,9 @@ const Hero = () => {
 
                 <motion.div
                     className="hero-right"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 1, ease: "easeOut" }}
+                    initial="hidden"
+                    animate="visible"
+                    variants={scaleIn(0)}
                 >
                     <div className="hero-orbit-wrapper-large">
                         <div className="orbit-grid-line orbit-grid-h" />
