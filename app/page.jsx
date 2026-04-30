@@ -2,6 +2,7 @@ import StarsCanvas from "@/components/StarsCanvas";
 import Hero from "@/components/Hero";
 import AboutSection from "@/components/AboutSection";
 import SkillsSection from "@/components/SkillsSection";
+import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <SkillsSection />
+      <ProjectsSection />
     </main>
   );
 }
