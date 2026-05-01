@@ -23,6 +23,7 @@ const Footer = () => {
                         <div className="flex items-center gap-4">
                             {Socials.map((social) => (
                                 <a 
+                                    key={social.name}
                                     href={social.link} 
                                     target="_blank" 
                                     rel="noreferrer" 
