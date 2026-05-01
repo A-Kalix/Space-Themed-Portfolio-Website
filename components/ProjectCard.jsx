@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { scaleIn } from "@/utils/motion";
 
-const ProjectCard = ({ src, title, description }) => {
+const ProjectCard = ({ image, title, description }) => {
     return (
         <motion.div
             className="project-card"
@@ -14,7 +14,7 @@ const ProjectCard = ({ src, title, description }) => {
         >
             <div className="project-image-wrapper">
                 <Image
-                    src={src}
+                    src={image}
                     alt={title}
                     width={1000}
                     height={1000}
