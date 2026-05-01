@@ -52,5 +52,5 @@ export const Projects = [
 
 export const Socials = [
     { name: "Github",   src: "/github.svg",   link: "https://github.com/Breacher-0" },
-    { name: "Linkedin", src: "/linkedin.svg",  link: "https://www.linkedin.com/in/ahmed-khalil" },
+    { name: "Linkedin", src: "/linkedin.svg",  link: "https://www.linkedin.com/in/ahmed-khalil-44091a32b/" },
 ];

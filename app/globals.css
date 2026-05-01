@@ -551,6 +551,49 @@
       leading-relaxed;
   }
 
+  .contact-section {
+    @apply 
+      relative 
+      w-full 
+      py-24 
+      flex 
+      flex-col 
+      items-center 
+      justify-center 
+      z-10;
+  }
+
+  .contact-content {
+    @apply 
+      w-full 
+      max-w-2xl 
+      mx-auto 
+      px-6;
+  }
+
+  .contact-card {
+    @apply 
+      flex 
+      flex-col 
+      items-center 
+      text-center 
+      p-10 
+      rounded-3xl 
+      bg-slate-900/50 
+      border 
+      border-purple-500/20 
+      backdrop-blur-md 
+      shadow-[0_0_30px_rgba(168,85,247,0.1)];
+  }
+
+  .contact-description {
+    @apply 
+      text-lg 
+      text-gray-300 
+      leading-relaxed 
+      mb-8;
+  }
+
   .footer-wrapper {
     @apply 
       relative 
