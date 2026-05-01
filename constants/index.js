@@ -28,7 +28,7 @@ export const Projects = [
         tags: ["Next.js", "Node.js", "PostgreSQL", "JWT"],
         image: "/NextWebsite.png",
         liveUrl: "#",
-        repoUrl: "https://github.com/Breacher-0",
+        repoUrl: "https://github.com/A-Kalix",
     },
     {
         title: "Task Management App",
@@ -37,7 +37,7 @@ export const Projects = [
         tags: ["React", "Django", "REST API", "Docker"],
         image: "/SpaceWebsite.png",
         liveUrl: "#",
-        repoUrl: "https://github.com/Breacher-0",
+        repoUrl: "https://github.com/A-Kalix",
     },
     {
         title: "Space Portfolio",
@@ -46,11 +46,11 @@ export const Projects = [
         tags: ["Next.js", "Three.js", "Framer Motion", "Tailwind"],
         image: "/CardImage.png",
         liveUrl: "#",
-        repoUrl: "https://github.com/Breacher-0",
+        repoUrl: "https://github.com/A-Kalix",
     },
 ];
 
 export const Socials = [
-    { name: "Github",   src: "/github.svg",   link: "https://github.com/Breacher-0" },
+    { name: "Github",   src: "/github.svg",   link: "https://github.com/A-Kalix" },
     { name: "Linkedin", src: "/linkedin.svg",  link: "https://www.linkedin.com/in/ahmed-khalil-44091a32b/" },
 ];
