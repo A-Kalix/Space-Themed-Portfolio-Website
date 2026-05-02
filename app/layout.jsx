@@ -15,6 +15,7 @@ export const metadata = {
     locale: "en_US",
     type: "website",
   },
+  metadataBase: new URL("https://ahmedkhalil.dev"),
 };
 
 export default function RootLayout({ children }) {
