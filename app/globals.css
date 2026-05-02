@@ -631,4 +631,77 @@
       uppercase 
       opacity-50;
   }
+
+  .footer-content-split {
+    @apply 
+      w-full 
+      flex 
+      flex-col 
+      md:flex-row 
+      justify-between 
+      items-center 
+      gap-6;
+  }
+
+  .footer-left {
+    @apply 
+      flex 
+      flex-col 
+      items-center 
+      md:items-start 
+      gap-4;
+  }
+
+  .footer-name {
+    @apply 
+      text-xl 
+      font-bold 
+      text-gray-200;
+  }
+
+  .footer-socials {
+    @apply 
+      flex 
+      items-center 
+      gap-4;
+  }
+
+  .footer-social-link {
+    @apply 
+      hover:scale-110 
+      transition-transform 
+      duration-300;
+  }
+
+  .footer-social-icon {
+    @apply 
+      opacity-70 
+      hover:opacity-100 
+      transition-opacity;
+  }
+
+  .footer-right {
+    @apply 
+      flex 
+      flex-col 
+      items-center 
+      md:items-end 
+      gap-2 
+      text-gray-400;
+  }
+
+  .footer-email {
+    @apply 
+      hover:text-purple-400 
+      transition-colors;
+  }
+
+  .orbit-icon-container {
+    @apply 
+      w-6 
+      h-6 
+      flex 
+      items-center 
+      justify-center;
+  }
 }

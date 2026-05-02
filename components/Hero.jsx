@@ -95,7 +95,7 @@ const Hero = () => {
                                         transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
                                     >
                                         {skill.type === "icon" ? (
-                                            <div className="w-6 h-6 flex items-center justify-center">
+                                            <div className="orbit-icon-container">
                                                 {skill.icon}
                                             </div>
                                         ) : (
